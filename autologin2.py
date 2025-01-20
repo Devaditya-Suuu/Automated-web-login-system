@@ -20,13 +20,13 @@ try:
     username_field = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.NAME, "username"))
     )
-    username_field.send_keys("4SI24IS064")  # Replace with your actual username
+    username_field.send_keys("Username")  # Replace with your actual username
 
     # Wait for and fill in the password field
     password_field = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.NAME, "password"))
     )
-    password_field.send_keys("7M3N7011")  # Replace with your actual password
+    password_field.send_keys("Password")  # Replace with your actual password
 
     # Wait for the login button to be clickable using full XPath and scroll into view if necessary
     login_button = WebDriverWait(driver, 2).until(
