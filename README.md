@@ -10,6 +10,6 @@ A Python script can be designed to automate the periodic login process for a spe
   7. after setting all this now you can just past the given code in your vs code and save the .py file
   8. now to run this .py script after every "x" minutes you can use task scheduler and schedule to run repetitively
 
-#################################################################################################
+###################################################################################
 
      
