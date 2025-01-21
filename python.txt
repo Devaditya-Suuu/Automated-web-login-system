@@ -30,7 +30,7 @@ try:
 
     # Wait for the login button to be clickable using full XPath and scroll into view if necessary
     login_button = WebDriverWait(driver, 2).until(
-        EC.visibility_of_element_located((By.XPATH, "/html/body/div/div/div[4]/div[2]/div"))
+        EC.visibility_of_element_located((By.XPATH, "/html/body/div/div/div[4]/div[2]/div"))   #make shure to enter the xpath of the login button by going through the inspect mode
     )
 
     # Scroll to the button and use JavaScript to click it
